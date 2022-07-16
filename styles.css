@@ -1,0 +1,135 @@
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+  }
+  .navbar {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgba(224, 44, 44, 0.721);
+    height: 100px;
+    padding: 0 30px;
+    border-bottom: 4px solid #a93a3a;
+}
+.imagentitulo {
+  width: auto;
+  height: auto;
+}
+.navbar h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+    color: whitesmoke
+  }
+  .navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+  }
+  .navbar ul {
+    display: flex;
+  }
+
+  .navbar a:hover {
+    color: rgb(250, 27, 27);
+    border-bottom: 3px solid red;
+
+}
+
+body > table{
+    width: 100%;
+}
+
+table{
+    border-collapse: collapse;
+    width:100%;
+}
+table.list{
+    width:100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(odd),table.list thead>tr {
+    background-color: #ec6868;
+}
+
+input[type=text], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 30%;
+    background-color: #ddd;
+    color: #000;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form div.form-action-buttons{
+    text-align: right;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #0000ee;
+    margin-right: 4px;
+}
+
+label.validation-error{
+    color:   red;
+    margin-left: 5px;
+}
+
+.hide{
+    display:none;
+}
+body {
+    background: rgb(65, 25, 5);
+    margin:0px;
+    font-family: 'Ubuntu', sans-serif;
+      background-size: 100% 110%;
+  }
+  table {
+color: #ddd;
+
+
+
+  }
+  .list {
+    color: black
+
+
+  }
+  .tbody {
+background-color: rgb(99, 177, 106);
+color: #0000ee;
+
+
+
+ } 
+  body {
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke;
+    background-image: url("./imagen2.jpeg");
+    background-color: transparent;
+    background-repeat:repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    background-size: contain;
+  }

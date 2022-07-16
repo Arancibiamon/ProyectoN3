@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        PROYECTO N°2 BOOTCAMP
+    </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div class="navbar">
+<div class="container flex">
+    <div class="imagentitulo">
+      <img src="./logo.jpg" alt="">
+    </div>
+          <h1 class="logo">Registro de usuarios y entrega de información relevante</h1>
+        <nav>
+        <ul>
+          <li class="nav"><a class="outline" >Acceso colaboradores</a></li>
+          <li class="nav"><a href="" class="outline">Nuestra historia</a 				</li>
+        </ul>
+      </nav>
+  </div>
+<body>
+    <table>
+    </p>
+        </p>
+            </p>
+                </p>
+                    </p>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                    <div>
+                        <label>Nombre y Apellidos*</label><label class="validation-error hide" id="fullNameValidationError">Esta información es necesaria.</label>
+                        <input type="text" name="fullName" id="fullName">
+                    </div>
+                    <div>
+                        <label>Correo electrónico.</label>
+                        <input type="text" name="empCode" id="empCode">
+                    </div>
+                    <div>
+                        <label>Número telefónico.</label>
+                        <input type="text" name="salary" id="salary">
+                    </div>
+                    <div>
+                        <label>Ciudad.</label>
+                        <input type="text" name="city" id="city">
+                    </div>
+                    <div  class="form-action-buttons">
+                        <input type="submit" value="Agregar">
+                    </div>
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeeList">
+                    <thead>
+                        <tr>
+                            <th>Nombre completo</th>
+                            <th>Correo electrónico</th>
+                            <th>Número telefónico</th>
+                            <th>Ciudad</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+
+</html>

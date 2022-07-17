@@ -10,7 +10,6 @@ function onFormSubmit() {
         resetForm();
     }
 }
-
 function readFormData() {
     var formData = {};
     formData["fullName"] = document.getElementById("fullName").value;
@@ -19,7 +18,6 @@ function readFormData() {
     formData["city"] = document.getElementById("city").value;
     return formData;
 }
-
 function insertNewRecord(data) {
     var table = document.getElementById("employeeList").getElementsByTagName('tbody')[0];
     var newRow = table.insertRow(table.length);
@@ -35,7 +33,6 @@ function insertNewRecord(data) {
     cell4.innerHTML = `<a onClick="onEdit(this)">Editar</a>
                        <a onClick="onDelete(this)">Borrar</a>`;
 }
-
 function resetForm() {
     document.getElementById("fullName").value = "";
     document.getElementById("empCode").value = "";
@@ -43,7 +40,6 @@ function resetForm() {
     document.getElementById("city").value = "";
     selectedRow = null;
 }
-
 function onEdit(td) {
     selectedRow = td.parentElement.parentElement;
     document.getElementById("fullName").value = selectedRow.cells[0].innerHTML;
@@ -57,7 +53,6 @@ function updateRecord(formData) {
     selectedRow.cells[2].innerHTML = formData.salary;
     selectedRow.cells[3].innerHTML = formData.city;
 }
-
 function onDelete(td) {
     if (confirm('Estás seguro que deseas eliminarlo ?')) {
         row = td.parentElement.parentElement;

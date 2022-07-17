@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>
         PROYECTO N°2 BOOTCAMP
@@ -12,7 +11,7 @@
     <div class="imagentitulo">
       <img src="./logo.jpg" alt="">
     </div>
-          <h1 class="logo">Registro de usuarios y entrega de información relevante</h1>
+          <h1 class="logo">Registro de clientes y entrega de información relevante</h1>
         <nav>
         <ul>
           <li class="nav"><a class="outline" >Acceso colaboradores</a></li>
@@ -27,11 +26,16 @@
             </p>
                 </p>
                     </p>
+                </p>
+            </p>
+        </p>
+    </p>
+    </p>
         <tr>
             <td>
                 <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
                     <div>
-                        <label>Nombre y Apellidos*</label><label class="validation-error hide" id="fullNameValidationError">Esta información es necesaria.</label>
+                        <label>Nombre y Apellidos* (Obligatorio)</label><label class="validation-error hide" id="fullNameValidationError">Esta información es necesaria.</label>
                         <input type="text" name="fullName" id="fullName">
                     </div>
                     <div>
@@ -47,7 +51,7 @@
                         <input type="text" name="city" id="city">
                     </div>
                     <div  class="form-action-buttons">
-                        <input type="submit" value="Agregar">
+                        <input type="submit" value="Agregar/Actualizar">
                     </div>
                 </form>
             </td>
@@ -63,7 +67,6 @@
                         </tr>
                     </thead>
                     <tbody>
-
                     </tbody>
                 </table>
             </td>
@@ -71,5 +74,4 @@
     </table>
     <script src="script.js"></script>
 </body>
-
 </html>

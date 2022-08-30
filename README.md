@@ -1,5 +1,5 @@
-# ProyectoN2
-Proyecto N2; link aplicación desplegada: 
-https://arancibiamon.github.io/PROYECTON2.github.io/
-La página consiste en ofrecer un registro de usuarios estilo lista de distribución, el cual sea editable.
+# ProyectoN3
+Proyecto N3; link aplicación desplegada: 
+
+La página consiste en ofrecer resultados y estadísticas deportivas a miembros de una empresa de apuestas virtuales.
 

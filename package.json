@@ -1,0 +1,22 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "La página consiste en ofrecer resultados y estadísticas deportivas a miembros de una empresa de apuestas virtuales.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arancibiamon/ProyectoN3.git"
+  },
+  "author": "Tomás-Martín",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arancibiamon/ProyectoN3/issues"
+  },
+  "homepage": "https://github.com/Arancibiamon/ProyectoN3#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}

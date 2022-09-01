@@ -11,9 +11,10 @@
     border-bottom: 4px solid #a93a3a;
   }
 .imagentitulo {
-  width: auto;
-  height: auto;
-  }
+  width: 190px;
+  height: 170px;
+}
+  
 .navbar h1 {
     font-size: 30px;
     font-weight: 300;
@@ -21,6 +22,7 @@
     line-height: 1.2;
     color: whitesmoke
   }
+  
 .navbar .flex {
     display: flex;
     justify-content: space-between;
@@ -112,4 +114,14 @@ body {
     background-position: center top;
     background-attachment: fixed;
     background-size: contain;
+  }
+  body {
+    height: 600px;
+  }
+  
+  canvas {
+    max-height: 100%;
+    opacity: 1;
+    background-color: rgb(200, 200, 200)
+
   }

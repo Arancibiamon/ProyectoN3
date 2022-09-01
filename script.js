@@ -76,12 +76,12 @@ function validate() {
 
 
 const data = {
-    'React': 185134,
-    'Vue': 195514,
-    'Angular': 80460,
-    'Svelte': 57022,
-    'Ember.js': 22165,
-    'Backbone.js': 27862
+    'Colo Colo': 122,
+    'Universidad de Chile': 144,
+    'Universidad Católica': 1666,
+    'Everton': 1876,
+    'Cobresal': 2165,
+    'Tricolor de Paine': 2762
 };
 
 const ctx = document.getElementById('myChart').getContext('2d');
@@ -91,7 +91,7 @@ const myChart = new Chart(ctx, {
     data: {
         labels: Object.keys(data),
         datasets: [{
-            label: 'Number of GitHub Stars',
+            label: 'Estadística de apuestas por equipo',
             data: Object.values(data),
         }, ],
     },

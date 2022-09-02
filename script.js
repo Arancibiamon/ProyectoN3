@@ -1,3 +1,4 @@
+// CRUD
 var selectedRow = null
 
 function onFormSubmit() {
@@ -72,16 +73,14 @@ function validate() {
     }
     return isValid;
 }
-
-
-
+// Chart.js
 const data = {
     'Colo Colo': 122,
     'Universidad de Chile': 144,
-    'Universidad Católica': 1666,
-    'Everton': 1876,
-    'Cobresal': 2165,
-    'Tricolor de Paine': 2762
+    'Universidad Católica': 999,
+    'Everton': 1176,
+    'Cobresal': 1165,
+    'Tricolor de Paine': 1762
 };
 
 const ctx = document.getElementById('myChart').getContext('2d');
@@ -91,15 +90,16 @@ const myChart = new Chart(ctx, {
     data: {
         labels: Object.keys(data),
         datasets: [{
-            label: 'Estadística de apuestas por equipo',
+            label: 'Estadística de apuestas principales equipos a nivel nacional',
             data: Object.values(data),
+            backgroundColor: [
+                'rgba(165, 42, 42, 0.9)',   // Color de linea 1 del gráfico
+                'rgba(54, 162, 235, 0.9)',  // linea 2
+                'rgba(255, 206, 86, 0.9)',  // linea 3
+                'rgba(75, 192, 192, 0.9)',  // linea 4
+                'rgba(153, 102, 255, 0.9)', // linea 5
+                'rgba(255, 159, 64, 0.9)'   // linea 6
+                ],
         }, ],
     },
-    options: {
-        backgroundColor: [
-            'red'
-        ],
-        borderWidth: 2,
-        borderColor: 'black'
-    }
 });

@@ -122,6 +122,8 @@ body {
   canvas {
     max-height: 100%;
     opacity: 1;
-    background-color: rgb(200, 200, 200)
-
-  }
+    background-color: rgb(200, 200, 200);
+    border-color: #a93a3a;
+    border-radius: 1cm;
+   }
+  
